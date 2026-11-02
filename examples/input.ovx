@@ -1,0 +1,6 @@
+# User input is NOT implemented in Orinvex 1.0.
+# This file is a placeholder. Planned syntax is not final.
+#
+# For now you can only use fixed values:
+define.name = "player".end
+print.ConsoleText(data:Get.name)end

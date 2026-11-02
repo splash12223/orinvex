@@ -1,0 +1,7 @@
+# User-defined functions are NOT implemented in Orinvex 1.0.
+# This file is a placeholder.
+#
+# Repeating code is possible only with loops:
+loop -- <true>.Repeat(2)
+    print.ConsoleText("Pretend this is a function call")end
+end

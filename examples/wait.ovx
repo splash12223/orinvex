@@ -1,0 +1,8 @@
+# The 'rest' library provides waiting. It must be imported first.
+import rest
+
+print.ConsoleText("Start")end
+rest.wait -- time(1)end
+print.ConsoleText("1 second later")end
+rest.wait -- milliseconds(500)end
+print.ConsoleText("500 ms later")end

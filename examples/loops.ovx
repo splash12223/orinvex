@@ -1,0 +1,12 @@
+# Loop: loop -- <true>.Repeat(N) ... end
+loop -- <true>.Repeat(3)
+    print.ConsoleText("Hello")end
+end
+
+# Loops can be nested
+loop -- <true>.Repeat(2)
+    print.ConsoleText("Outer")end
+    loop -- <true>.Repeat(2)
+        print.ConsoleText("  Inner")end
+    end
+end

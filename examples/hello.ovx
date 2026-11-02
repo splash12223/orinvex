@@ -1,0 +1,4 @@
+# Hello, world
+print.ConsoleText("Hello, world!")end
+print.ConsoleText('Single quotes work too')end
+print.ConsoleText("Orinvex 1.0")end

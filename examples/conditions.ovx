@@ -1,0 +1,12 @@
+# if/else conditions are NOT implemented in Orinvex 1.0.
+# This file is a placeholder.
+#
+# The only boolean-driven construct right now is the loop:
+# a loop with <false> never runs its body.
+loop -- <false>.Repeat(3)
+    print.ConsoleText("This is never printed")end
+end
+
+loop -- <true>.Repeat(1)
+    print.ConsoleText("This is printed once")end
+end

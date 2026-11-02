@@ -1,0 +1,8 @@
+# Math expressions are NOT implemented in Orinvex 1.0.
+# This file is a placeholder.
+#
+# Numbers can be stored and printed, but not calculated yet:
+define.x = 10.end
+define.y = -2.5.end
+print.Number(data:Get.x)end
+print.Number(data:Get.y)end

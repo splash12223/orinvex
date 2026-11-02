@@ -1,0 +1,14 @@
+# Variables: define.name = value.end
+# Read them back with data:Get.name
+define.greeting = "Hello from a variable".end
+define.answer = 42.end
+define.pi = 3.14.end
+define.ready = <true>.end
+
+print.ConsoleText(data:Get.greeting)end
+print.Number(data:Get.answer)end
+print.Number(data:Get.pi)end
+print.ConsoleText(data:Get.ready)end
+
+# Several commands on one line, separated by " - "
+define.a = 1.end - define.b = 2.end - print.Number(data:Get.b)end
